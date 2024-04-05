@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: fit-content;
+}
+
+.image {
+  position: absolute;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: rgb(190, 50, 190);
+  top: -64px;
+  left: 24px;
+}
+
+img {
+  object-fit: cover;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  top: -60px;
+  left: 20px;
+  position: absolute;
+  z-index: 25;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin-bottom: 0px;
+  letter-spacing: 0.1rem;
+}
+
+.job {
+  color: rgb(237, 140, 237);
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-top: 0px;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.quotes {
+  margin: auto;
+  margin-top: 5px;
+  color: rgb(182, 100, 220);
+}
