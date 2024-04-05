@@ -11,21 +11,21 @@
 
 .image {
   position: absolute;
-  height: 140px;
-  width: 140px;
+  height: 7rem;
+  width: 7rem;
   border-radius: 50%;
   background-color: rgb(190, 50, 190);
   top: -64px;
-  left: 24px;
+  left: 14px;
 }
 
 img {
   object-fit: cover;
-  height: 140px;
-  width: 140px;
+  height: 7rem;
+  width: 7rem;
   border-radius: 50%;
   top: -60px;
-  left: 20px;
+  left: 10px;
   position: absolute;
   z-index: 25;
 }
@@ -35,7 +35,6 @@ img {
   font-weight: 700;
   font-size: 1.7rem;
   margin-bottom: 0px;
-  letter-spacing: 0.1rem;
 }
 
 .job {
